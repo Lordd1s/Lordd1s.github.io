@@ -3,72 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>CV - Dias Akhmetzhan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+            color: #555;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .item-title {
+            font-weight: bold;
+            color: #333;
+        }
+        .item-date {
+            float: right;
+            color: #777;
+        }
+        .link {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-    <div style="text-align: center;">
-        <h1><strong>Dias Akhmetzhan</strong></h1>
-        <p>
+    <div class="container">
+        <h1>Dias Akhmetzhan</h1>
+        <div class="contact-info">
             <a href="mailto:uaudias@gmail.com">uaudias@gmail.com</a> | 
             <a href="https://github.com/Lordd1s">github.com/Lordd1s</a> | 
             +7 708 356 2652
-        </p>
+        </div>
+
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <span class="item-title">Intern Developer in HardCode</span>
+                    <span class="item-date">April 2024 -- Present</span>
+                    <ul>
+                        <li>EdTech Project</li>
+                        <li>Developed web applications using Python, Django, FastAPI.</li>
+                        <li>Created RESTful APIs and custom authentication with JWT.</li>
+                        <li>Participated in the creation of the application architecture.</li>
+                        <li>Implemented transactions and bonus features.</li>
+                        <li>Developed and deployed in a Linux environment.</li>
+                        <li>Optimized existing code for performance.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <span class="item-title">Programming Courses (IT Step Academy)</span>
+                    <span class="item-date">2023 -- 2024</span>
+                    <ul>
+                        <li>Studied Python, Django, FastAPI, HTML, CSS, Vue 3, Vite.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li><span class="item-title">Programming Languages:</span> Python, JavaScript</li>
+                <li><span class="item-title">Web Technologies:</span> Django, FastAPI, HTML, CSS, Vue 3, Vite</li>
+                <li><span class="item-title">Operating Systems:</span> Linux, Windows</li>
+                <li><span class="item-title">Version Control:</span> Git</li>
+                <li><span class="item-title">Databases:</span> SQLite, PostgreSQL</li>
+                <li><span class="item-title">Basic DevOps:</span> Docker</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <span class="item-title">MVT Project</span> | 
+                    <a class="link" href="https://github.com/Lordd1s/twitterapp-django-MVT">github.com/Lordd1s/twitterapp-django-MVT</a>
+                    <ul>
+                        <li>Developed a web application using the MVT pattern.</li>
+                        <li>Implemented user management and authentication.</li>
+                        <li>Used databases for data management.</li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="item-title">SPA Project</span> | 
+                    <a class="link" href="https://github.com/Lordd1s/final-course">github.com/Lordd1s/final-course</a>
+                    <ul>
+                        <li>Developed a Single Page Application using Vue 3 and Vite.</li>
+                        <li>Created a dynamic user interface.</li>
+                        <li>Integrated with backend APIs for data fetching.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
-
-    <h2>Experience</h2>
-    <ul style="padding-left: 0;">
-        <li>
-            <strong>Intern Developer in HardCode</strong> <span style="float: right;">April 2024 -- Present</span>
-            <ul>
-                <li>EdTech Project</li>
-                <li>Developed web applications using Python, Django, FastAPI.</li>
-                <li>Created RESTful APIs and custom authentication with JWT.</li>
-                <li>Participated in the creation of the application architecture.</li>
-                <li>Implemented transactions and bonus features.</li>
-                <li>Developed and deployed in a Linux environment.</li>
-                <li>Optimized existing code for performance.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2>Education</h2>
-    <ul style="padding-left: 0;">
-        <li>
-            <strong>Programming Courses (IT Step Academy)</strong> <span style="float: right;">2023 -- 2024</span>
-            <ul>
-                <li>Studied Python, Django, FastAPI, HTML, CSS, Vue 3, Vite.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h2>Skills</h2>
-    <ul style="padding-left: 0;">
-        <li><strong>Programming Languages:</strong> Python, JavaScript</li>
-        <li><strong>Web Technologies:</strong> Django, FastAPI, HTML, CSS, Vue 3, Vite</li>
-        <li><strong>Operating Systems:</strong> Linux, Windows</li>
-        <li><strong>Version Control:</strong> Git</li>
-        <li><strong>Databases:</strong> SQLite, PostgreSQL</li>
-        <li><strong>Basic DevOps:</strong> Docker</li>
-    </ul>
-
-    <h2>Projects</h2>
-    <ul style="padding-left: 0;">
-        <li>
-            <strong>MVT Project</strong> | <a href="https://github.com/Lordd1s/twitterapp-django-MVT">github.com/Lordd1s/twitterapp-django-MVT</a>
-            <ul>
-                <li>Developed a web application using the MVT pattern.</li>
-                <li>Implemented user management and authentication.</li>
-                <li>Used databases for data management.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>SPA Project</strong> | <a href="https://github.com/Lordd1s/final-course">github.com/Lordd1s/final-course</a>
-            <ul>
-                <li>Developed a Single Page Application using Vue 3 and Vite.</li>
-                <li>Created a dynamic user interface.</li>
-                <li>Integrated with backend APIs for data fetching.</li>
-            </ul>
-        </li>
-    </ul>
 </body>
 </html>
