@@ -29,7 +29,7 @@
   - Implemented user management and authentication.
   - Used databases for data management.
 
-- **SPA Project** | [github.com/Lordd1s/final-course](https://github.com/Lordd1s/final-course)
+- **SPA Project** | [github.com/Lordd1s/final-course](https://github.com/Lordd1s/django-SPA-CRM-app)
   - Developed a Single Page Application using Vue 3 and Vite.
   - Created a dynamic user interface.
   - Integrated with backend APIs for data fetching.
