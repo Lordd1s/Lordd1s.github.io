@@ -10,6 +10,7 @@
   - Implemented transactions and bonus features.
   - Developed and deployed in a Linux environment.
   - Optimized existing code for performance.
+  - Implemented logging with Sentry
 
 ## Education
 - **Programming Courses (IT Step Academy)** *(2023 -- 2024)*
