@@ -3,7 +3,7 @@
 
 
 ## About Me
-I'm a backend developer with a year of hands-on experience, passionate about building APIs, working with asynchronous tasks, and integrating microservices. My primary tech stack is based on Python, and I enjoy working with Django and FastAPI, managing background tasks with Celery and RabbitMQ, and improving performance using Redis and Docker.
+I'm a backend developer with a 6 month of hands-on experience, passionate about building APIs, working with asynchronous tasks, and integrating microservices. My primary tech stack is based on Python, and I enjoy working with Django and FastAPI, managing background tasks with Celery and RabbitMQ, and improving performance using Redis and Docker.
 
 ## Experience
 - **Intern Developer in HardCode** *(April 2024 -- Present)*
